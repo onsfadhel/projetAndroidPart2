@@ -1,5 +1,4 @@
 <?php
-    session_start();
     include_once 'ConnexionBD.php';
     $connexion = ConnexionBD::getInstance();
     $query="INSERT INTO `employes` (`nom`,`prenom`,`email`,`pwd`,`logi`,`valsync`) 

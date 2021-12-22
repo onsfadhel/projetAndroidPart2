@@ -35,14 +35,14 @@
                         <?php foreach($users as $user ){ ?>   
                             <tr>
                                 <td name="id2" ><?=$user->id?></td>
-                                <td name="nom2" ><?=$user->nom?></td>
+                                <td ><?=$user->nom?></td>
                                 <td name="prenom2" ><?=$user->prenom?></td>
                                 <td name="email2"><?=$user->email?></td>
                                 <td name="password2"><?=$user->pwd?></td>
                                 <td name="login2"><?=$user->logi?></td>
                                 <td name="valsync2"><?=$user->valsync?></td>
                                 <td>
-                                    <a href="edit.php?edit=<?=$user->id?>"class="btn btn-info">Modifier</a>
+                                <a class="btn btn-info" href="delete.php?id=<?=$user->id ?>">Modifier</a>
                                     <a  name="delete"href="delete.php?idf=<?=$user->id ?>"class="btn btn-info">Suppprimer</a>
                                 </td>
                             </tr>
@@ -64,7 +64,7 @@
                     </div><br>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="email" name="email"> 
+                        <input type="email" name="email" > 
                     </div><br>
                     <div class="form-group">
                         <label>Mot de passe</label>

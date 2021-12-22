@@ -20,13 +20,13 @@
                     <a class="nav-link" href="TabEmployes.php">Employes </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Employes Interventions</a>
+                    <a class="nav-link" href="TabIntervention.php">Employes Interventions</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Images</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Interventions</a>
+                    <a class="nav-link" href="TabIntervention.php">Interventions</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sites</a>
@@ -45,13 +45,13 @@
                 <a href="TabEmployes.php" class="alert-link">Gérer Table Des Employes </a>
             </div>
             <div class="alert alert-warning" role="alert">
-                <a href="#" class="alert-link">Gérer Table Des Employees Interventions</a>
+                <a href="TabIntervention.php" class="alert-link">Gérer Table Des Employees Interventions</a>
             </div>
             <div class="alert alert-warning" role="alert">
                 <a href="#" class="alert-link">Gérer Table des Images </a>
             </div>
             <div class="alert alert-warning" role="alert">
-                <a href="#" class="alert-link">Gérer Table Des Interventions</a>
+                <a href="TabIntervention.php" class="alert-link">Gérer Table Des Interventions</a>
             </div>
             <div class="alert alert-warning" role="alert">
                 <a href="#" class="alert-link">Gérer table des sites Sites </a>
